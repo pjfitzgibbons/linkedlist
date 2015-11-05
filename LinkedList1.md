@@ -18,14 +18,7 @@ In the above example, the LinkedList starts with a node that contains the value 
 Despite the fact that a LinkedList is a complicated data structure, implementing it is quite easy. The following ruby code implements a LinkedList:
 
 ```
-class LinkedListNode
-  attr_accessor :value, :next_node
- 
-  def initialize(value, next_node=nil)
-    @value = value
-    @next_node = next_node
-  end
-end
+
 ```
 
 
